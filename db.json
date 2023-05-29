@@ -1,0 +1,1712 @@
+{
+    "lacos": [
+        {
+            "id": 1,
+            "description": "Laço Preto",
+            "model": "Simples",
+            "type": "laço",
+            "price": "6",
+            "weight": "2",
+            "notes": "Laço confeccionado com os melhores tecidos",
+            "status": 1,
+            "createdAt": "2022-07-03T20:12:43.000Z",
+            "updatedAt": "2022-07-03T20:12:43.000Z",
+            "Product_Albums": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              },
+              {
+                "id": 100,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              }
+            ],
+            "Colors": [
+              {
+                "id": 1,
+                "name": "Azul",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_color": 1,
+                  "createdAt": "2022-07-03T20:13:04.000Z",
+                  "updatedAt": "2022-07-03T20:13:04.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "Amarelo",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_color": 2,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "Rosa",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_color": 3,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "Preto",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_color": 4,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 6,
+                "name": "Verde",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 100,
+                  "id_product": 1,
+                  "id_color": 6,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              }
+            ],
+            "Sizes": [
+              {
+                "id": 1,
+                "name": "PP",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 1,
+                  "id_size": 1,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "P",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 2,
+                  "id_size": 2,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "M",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 3,
+                  "id_size": 3,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "G",
+                "createdAt": "2022-07-03T20:13:02.000Z",
+                "updatedAt": "2022-07-03T20:13:02.000Z",
+                "Product_Sizes": {
+                  "id": 4,
+                  "id_size": 4,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              }
+            ],
+            "Materials": [
+              {
+                "id": 1,
+                "description": "Linho",
+                "createdAt": "2022-07-03T20:12:58.000Z",
+                "updatedAt": "2022-07-03T20:12:58.000Z",
+                "Product_Materials": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_material": 1,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "description": "Pedraria",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_material": 2,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "description": "Aço",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_material": 3,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "description": "Plastico",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_material": 4,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              }
+            ],
+            "Ratings": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "description": "Gostei , o produto é muito bem feito!",
+                "date": "2022-07-03T20:13:13.000Z",
+                "evaluation_grade": 5,
+                "author": "Danilo Sales",
+                "createdAt": "2022-07-03T20:13:13.000Z",
+                "updatedAt": "2022-07-03T20:13:13.000Z"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "description": "Laço Rosa",
+            "model": "Simples",
+            "type": "laço",
+            "price": "36",
+            "weight": "2",
+            "notes": "Laço confeccionado com os melhores tecidos",
+            "status": 1,
+            "createdAt": "2022-07-03T20:12:43.000Z",
+            "updatedAt": "2022-07-03T20:12:43.000Z",
+            "Product_Albums": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              },
+              {
+                "id": 100,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              }
+            ],
+            "Colors": [
+              {
+                "id": 1,
+                "name": "Azul",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_color": 1,
+                  "createdAt": "2022-07-03T20:13:04.000Z",
+                  "updatedAt": "2022-07-03T20:13:04.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "Amarelo",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_color": 2,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "Rosa",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_color": 3,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "Preto",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_color": 4,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 6,
+                "name": "Verde",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 100,
+                  "id_product": 1,
+                  "id_color": 6,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              }
+            ],
+            "Sizes": [
+              {
+                "id": 1,
+                "name": "PP",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 1,
+                  "id_size": 1,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "P",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 2,
+                  "id_size": 2,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "M",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 3,
+                  "id_size": 3,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "G",
+                "createdAt": "2022-07-03T20:13:02.000Z",
+                "updatedAt": "2022-07-03T20:13:02.000Z",
+                "Product_Sizes": {
+                  "id": 4,
+                  "id_size": 4,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              }
+            ],
+            "Materials": [
+              {
+                "id": 1,
+                "description": "Linho",
+                "createdAt": "2022-07-03T20:12:58.000Z",
+                "updatedAt": "2022-07-03T20:12:58.000Z",
+                "Product_Materials": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_material": 1,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "description": "Pedraria",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_material": 2,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "description": "Aço",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_material": 3,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "description": "Plastico",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_material": 4,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "description": "Laço Preto",
+            "model": "Simples",
+            "type": "laço",
+            "price": "6",
+            "weight": "2",
+            "notes": "Laço confeccionado com os melhores tecidos",
+            "status": 1,
+            "createdAt": "2022-07-03T20:12:43.000Z",
+            "updatedAt": "2022-07-03T20:12:43.000Z",
+            "Product_Albums": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              },
+              {
+                "id": 100,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              }
+            ],
+            "Colors": [
+              {
+                "id": 1,
+                "name": "Azul",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_color": 1,
+                  "createdAt": "2022-07-03T20:13:04.000Z",
+                  "updatedAt": "2022-07-03T20:13:04.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "Amarelo",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_color": 2,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "Rosa",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_color": 3,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "Preto",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_color": 4,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 6,
+                "name": "Verde",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 100,
+                  "id_product": 1,
+                  "id_color": 6,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              }
+            ],
+            "Sizes": [
+              {
+                "id": 1,
+                "name": "PP",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 1,
+                  "id_size": 1,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "P",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 2,
+                  "id_size": 2,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "M",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 3,
+                  "id_size": 3,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "G",
+                "createdAt": "2022-07-03T20:13:02.000Z",
+                "updatedAt": "2022-07-03T20:13:02.000Z",
+                "Product_Sizes": {
+                  "id": 4,
+                  "id_size": 4,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              }
+            ],
+            "Materials": [
+              {
+                "id": 1,
+                "description": "Linho",
+                "createdAt": "2022-07-03T20:12:58.000Z",
+                "updatedAt": "2022-07-03T20:12:58.000Z",
+                "Product_Materials": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_material": 1,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "description": "Pedraria",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_material": 2,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "description": "Aço",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_material": 3,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "description": "Plastico",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_material": 4,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              }
+            ],
+            "Ratings": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "description": "Gostei , o produto é muito bem feito!",
+                "date": "2022-07-03T20:13:13.000Z",
+                "evaluation_grade": 5,
+                "author": "Danilo Sales",
+                "createdAt": "2022-07-03T20:13:13.000Z",
+                "updatedAt": "2022-07-03T20:13:13.000Z"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "description": "Laço Preto",
+            "model": "Simples",
+            "type": "laço",
+            "price": "6",
+            "weight": "2",
+            "notes": "Laço confeccionado com os melhores tecidos",
+            "status": 1,
+            "createdAt": "2022-07-03T20:12:43.000Z",
+            "updatedAt": "2022-07-03T20:12:43.000Z",
+            "Product_Albums": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              },
+              {
+                "id": 100,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              }
+            ],
+            "Colors": [
+              {
+                "id": 1,
+                "name": "Azul",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_color": 1,
+                  "createdAt": "2022-07-03T20:13:04.000Z",
+                  "updatedAt": "2022-07-03T20:13:04.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "Amarelo",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_color": 2,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "Rosa",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_color": 3,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "Preto",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_color": 4,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 6,
+                "name": "Verde",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 100,
+                  "id_product": 1,
+                  "id_color": 6,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              }
+            ],
+            "Sizes": [
+              {
+                "id": 1,
+                "name": "PP",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 1,
+                  "id_size": 1,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "P",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 2,
+                  "id_size": 2,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "M",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 3,
+                  "id_size": 3,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "G",
+                "createdAt": "2022-07-03T20:13:02.000Z",
+                "updatedAt": "2022-07-03T20:13:02.000Z",
+                "Product_Sizes": {
+                  "id": 4,
+                  "id_size": 4,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              }
+            ],
+            "Materials": [
+              {
+                "id": 1,
+                "description": "Linho",
+                "createdAt": "2022-07-03T20:12:58.000Z",
+                "updatedAt": "2022-07-03T20:12:58.000Z",
+                "Product_Materials": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_material": 1,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "description": "Pedraria",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_material": 2,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "description": "Aço",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_material": 3,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "description": "Plastico",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_material": 4,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              }
+            ],
+            "Ratings": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "description": "Gostei , o produto é muito bem feito!",
+                "date": "2022-07-03T20:13:13.000Z",
+                "evaluation_grade": 5,
+                "author": "Danilo Sales",
+                "createdAt": "2022-07-03T20:13:13.000Z",
+                "updatedAt": "2022-07-03T20:13:13.000Z"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "description": "Laço Preto",
+            "model": "Simples",
+            "type": "laço",
+            "price": "6",
+            "weight": "2",
+            "notes": "Laço confeccionado com os melhores tecidos",
+            "status": 1,
+            "createdAt": "2022-07-03T20:12:43.000Z",
+            "updatedAt": "2022-07-03T20:12:43.000Z",
+            "Product_Albums": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              },
+              {
+                "id": 100,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              }
+            ],
+            "Colors": [
+              {
+                "id": 1,
+                "name": "Azul",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_color": 1,
+                  "createdAt": "2022-07-03T20:13:04.000Z",
+                  "updatedAt": "2022-07-03T20:13:04.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "Amarelo",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_color": 2,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "Rosa",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_color": 3,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "Preto",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_color": 4,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 6,
+                "name": "Verde",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 100,
+                  "id_product": 1,
+                  "id_color": 6,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              }
+            ],
+            "Sizes": [
+              {
+                "id": 1,
+                "name": "PP",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 1,
+                  "id_size": 1,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "P",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 2,
+                  "id_size": 2,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "M",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 3,
+                  "id_size": 3,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "G",
+                "createdAt": "2022-07-03T20:13:02.000Z",
+                "updatedAt": "2022-07-03T20:13:02.000Z",
+                "Product_Sizes": {
+                  "id": 4,
+                  "id_size": 4,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              }
+            ],
+            "Materials": [
+              {
+                "id": 1,
+                "description": "Linho",
+                "createdAt": "2022-07-03T20:12:58.000Z",
+                "updatedAt": "2022-07-03T20:12:58.000Z",
+                "Product_Materials": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_material": 1,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "description": "Pedraria",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_material": 2,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "description": "Aço",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_material": 3,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "description": "Plastico",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_material": 4,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              }
+            ],
+            "Ratings": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "description": "Gostei , o produto é muito bem feito!",
+                "date": "2022-07-03T20:13:13.000Z",
+                "evaluation_grade": 5,
+                "author": "Danilo Sales",
+                "createdAt": "2022-07-03T20:13:13.000Z",
+                "updatedAt": "2022-07-03T20:13:13.000Z"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "description": "Laço Preto",
+            "model": "Simples",
+            "type": "laço",
+            "price": "6",
+            "weight": "2",
+            "notes": "Laço confeccionado com os melhores tecidos",
+            "status": 1,
+            "createdAt": "2022-07-03T20:12:43.000Z",
+            "updatedAt": "2022-07-03T20:12:43.000Z",
+            "Product_Albums": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              },
+              {
+                "id": 100,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              }
+            ],
+            "Colors": [
+              {
+                "id": 1,
+                "name": "Azul",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_color": 1,
+                  "createdAt": "2022-07-03T20:13:04.000Z",
+                  "updatedAt": "2022-07-03T20:13:04.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "Amarelo",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_color": 2,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "Rosa",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_color": 3,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "Preto",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_color": 4,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 6,
+                "name": "Verde",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 100,
+                  "id_product": 1,
+                  "id_color": 6,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              }
+            ],
+            "Sizes": [
+              {
+                "id": 1,
+                "name": "PP",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 1,
+                  "id_size": 1,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "P",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 2,
+                  "id_size": 2,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "M",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 3,
+                  "id_size": 3,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "G",
+                "createdAt": "2022-07-03T20:13:02.000Z",
+                "updatedAt": "2022-07-03T20:13:02.000Z",
+                "Product_Sizes": {
+                  "id": 4,
+                  "id_size": 4,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              }
+            ],
+            "Materials": [
+              {
+                "id": 1,
+                "description": "Linho",
+                "createdAt": "2022-07-03T20:12:58.000Z",
+                "updatedAt": "2022-07-03T20:12:58.000Z",
+                "Product_Materials": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_material": 1,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "description": "Pedraria",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_material": 2,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "description": "Aço",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_material": 3,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "description": "Plastico",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_material": 4,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              }
+            ],
+            "Ratings": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "description": "Gostei , o produto é muito bem feito!",
+                "date": "2022-07-03T20:13:13.000Z",
+                "evaluation_grade": 5,
+                "author": "Danilo Sales",
+                "createdAt": "2022-07-03T20:13:13.000Z",
+                "updatedAt": "2022-07-03T20:13:13.000Z"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "description": "Laço Preto",
+            "model": "Simples",
+            "type": "laço",
+            "price": "6",
+            "weight": "2",
+            "notes": "Laço confeccionado com os melhores tecidos",
+            "status": 1,
+            "createdAt": "2022-07-03T20:12:43.000Z",
+            "updatedAt": "2022-07-03T20:12:43.000Z",
+            "Product_Albums": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              },
+              {
+                "id": 100,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              }
+            ],
+            "Colors": [
+              {
+                "id": 1,
+                "name": "Azul",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_color": 1,
+                  "createdAt": "2022-07-03T20:13:04.000Z",
+                  "updatedAt": "2022-07-03T20:13:04.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "Amarelo",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_color": 2,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "Rosa",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_color": 3,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "Preto",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_color": 4,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 6,
+                "name": "Verde",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 100,
+                  "id_product": 1,
+                  "id_color": 6,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              }
+            ],
+            "Sizes": [
+              {
+                "id": 1,
+                "name": "PP",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 1,
+                  "id_size": 1,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "P",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 2,
+                  "id_size": 2,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "M",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 3,
+                  "id_size": 3,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "G",
+                "createdAt": "2022-07-03T20:13:02.000Z",
+                "updatedAt": "2022-07-03T20:13:02.000Z",
+                "Product_Sizes": {
+                  "id": 4,
+                  "id_size": 4,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              }
+            ],
+            "Materials": [
+              {
+                "id": 1,
+                "description": "Linho",
+                "createdAt": "2022-07-03T20:12:58.000Z",
+                "updatedAt": "2022-07-03T20:12:58.000Z",
+                "Product_Materials": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_material": 1,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "description": "Pedraria",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_material": 2,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "description": "Aço",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_material": 3,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "description": "Plastico",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_material": 4,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              }
+            ],
+            "Ratings": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "description": "Gostei , o produto é muito bem feito!",
+                "date": "2022-07-03T20:13:13.000Z",
+                "evaluation_grade": 5,
+                "author": "Danilo Sales",
+                "createdAt": "2022-07-03T20:13:13.000Z",
+                "updatedAt": "2022-07-03T20:13:13.000Z"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "description": "Laço Preto",
+            "model": "Simples",
+            "type": "laço",
+            "price": "6",
+            "weight": "2",
+            "notes": "Laço confeccionado com os melhores tecidos",
+            "status": 1,
+            "createdAt": "2022-07-03T20:12:43.000Z",
+            "updatedAt": "2022-07-03T20:12:43.000Z",
+            "Product_Albums": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              },
+              {
+                "id": 100,
+                "id_product": 1,
+                "url_image": "https://res-console.cloudinary.com/drderxybw/thumbnails/v1/image/upload/v1656164767/c2FtcGxlcy9hbmltYWxzL2NhdA==/template/d18xMDAwLGFyXzE6MSxjX2ZpbGwsZ19hdXRvLGVfYXJ0Omhva3VzYWk=",
+                "createdAt": "2022-07-03T20:13:12.000Z",
+                "updatedAt": "2022-07-03T20:13:12.000Z"
+              }
+            ],
+            "Colors": [
+              {
+                "id": 1,
+                "name": "Azul",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_color": 1,
+                  "createdAt": "2022-07-03T20:13:04.000Z",
+                  "updatedAt": "2022-07-03T20:13:04.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "Amarelo",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_color": 2,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "Rosa",
+                "createdAt": "2022-07-03T20:12:56.000Z",
+                "updatedAt": "2022-07-03T20:12:56.000Z",
+                "Product_Colors": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_color": 3,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "Preto",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_color": 4,
+                  "createdAt": "2022-07-03T20:13:06.000Z",
+                  "updatedAt": "2022-07-03T20:13:06.000Z"
+                }
+              },
+              {
+                "id": 6,
+                "name": "Verde",
+                "createdAt": "2022-07-03T20:12:57.000Z",
+                "updatedAt": "2022-07-03T20:12:57.000Z",
+                "Product_Colors": {
+                  "id": 100,
+                  "id_product": 1,
+                  "id_color": 6,
+                  "createdAt": "2022-07-03T20:13:05.000Z",
+                  "updatedAt": "2022-07-03T20:13:05.000Z"
+                }
+              }
+            ],
+            "Sizes": [
+              {
+                "id": 1,
+                "name": "PP",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 1,
+                  "id_size": 1,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "name": "P",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 2,
+                  "id_size": 2,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "name": "M",
+                "createdAt": "2022-07-03T20:13:01.000Z",
+                "updatedAt": "2022-07-03T20:13:01.000Z",
+                "Product_Sizes": {
+                  "id": 3,
+                  "id_size": 3,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "name": "G",
+                "createdAt": "2022-07-03T20:13:02.000Z",
+                "updatedAt": "2022-07-03T20:13:02.000Z",
+                "Product_Sizes": {
+                  "id": 4,
+                  "id_size": 4,
+                  "id_product": 1,
+                  "createdAt": "2022-07-03T20:13:09.000Z",
+                  "updatedAt": "2022-07-03T20:13:09.000Z"
+                }
+              }
+            ],
+            "Materials": [
+              {
+                "id": 1,
+                "description": "Linho",
+                "createdAt": "2022-07-03T20:12:58.000Z",
+                "updatedAt": "2022-07-03T20:12:58.000Z",
+                "Product_Materials": {
+                  "id": 1,
+                  "id_product": 1,
+                  "id_material": 1,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 2,
+                "description": "Pedraria",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 2,
+                  "id_product": 1,
+                  "id_material": 2,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 3,
+                "description": "Aço",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 3,
+                  "id_product": 1,
+                  "id_material": 3,
+                  "createdAt": "2022-07-03T20:13:07.000Z",
+                  "updatedAt": "2022-07-03T20:13:07.000Z"
+                }
+              },
+              {
+                "id": 4,
+                "description": "Plastico",
+                "createdAt": "2022-07-03T20:12:59.000Z",
+                "updatedAt": "2022-07-03T20:12:59.000Z",
+                "Product_Materials": {
+                  "id": 4,
+                  "id_product": 1,
+                  "id_material": 4,
+                  "createdAt": "2022-07-03T20:13:08.000Z",
+                  "updatedAt": "2022-07-03T20:13:08.000Z"
+                }
+              }
+            ],
+            "Ratings": [
+              {
+                "id": 1,
+                "id_product": 1,
+                "description": "Gostei , o produto é muito bem feito!",
+                "date": "2022-07-03T20:13:13.000Z",
+                "evaluation_grade": 5,
+                "author": "Danilo Sales",
+                "createdAt": "2022-07-03T20:13:13.000Z",
+                "updatedAt": "2022-07-03T20:13:13.000Z"
+              }
+            ]
+          }
+    ]
+}

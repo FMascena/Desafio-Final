@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.fade-anim img {
+    animation: fadeAnim 0.7s ease-out;
+  }
+  @keyframes fadeAnim {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* @font-face {
+    font-family: "Fiona";
+    src: url("./public/Fiona-Regular.otf");
+  } */
+
+  * {
+    font-family: "Montserrat";
+  }
+
+  html {
+    --scrollbarBG: #FFFF;
+    --thumbBG: #BC8383;
+  }
+
+  body::-webkit-scrollbar {
+    width: 14px;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: var(--thumbBG);
+    border-radius: 8px;
+    border: 3px solid var(--scrollbarBG);
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #8C5554 ;
+  }

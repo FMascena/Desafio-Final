@@ -1,0 +1,20 @@
+.img-area{
+    position:relative;
+}
+
+.img-area img{
+    transition: opacity 0.8s ease-in-out;
+}
+
+.img-back {
+    position: absolute;
+}
+
+.img-front {
+    position: relative;
+}
+
+.img-area img.img-front:hover{
+    opacity: 0;
+    cursor: pointer;
+}

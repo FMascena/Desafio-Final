@@ -1,0 +1,139 @@
+import { Link } from "react-router-dom";
+import { FormStyle } from "../Register/Styles";
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import Input from "../../components/Input/index";
+import Button from "../../components/Button/index";
+import Error from "../../components/Help/index";
+
+export function Login() {
+    return (
+        <div className=" bg-bege-100">
+            <Header />
+            <div className="mt-10 mb-7 text-center font-semibold text-h3">
+                <p>Acesse sua conta</p>
+            </div>
+            <FormStyle>
+                <Input
+                    label="Email"
+                    type="text"
+                    placeholder="exemplo@email.com"
+                    name="email"
+                />
+                <Input
+                    label="Senha"
+                    type="password"
+                    placeholder="******"
+                    name="senha"
+                />
+                <Button type="submit" className="mt-4">
+                    Entrar
+                </Button>
+                <Error error={null} />
+            </FormStyle>
+            <div>
+                <p className="mt-5 mb-20 text-center text-white">
+                    Ainda não tem conta? <br />{" "}
+                    <Link className="text-blue-500" style={{ color: '#7BA1F6' }} to="/cadastro">
+                        <b>Cadastre-se</b>
+                    </Link>
+                </p>
+            </div>
+            <Footer />
+        </div>
+    );
+}
+
+
+
+
+
+
+
+
+
+
+// import { LogoStyle, MiniImg, FundoLogin, FundoLogin2 } from "./Styles";
+// import { FormStyle } from "../Register/Styles";
+// import logo from "../../assets/logo-light.png";
+// import fundo from "../../assets/fundo.png";
+// import fundo2 from "../../assets/fundo2.png";
+// import googleLogo from "../../assets/googleLogo.png";
+// import facebookLogo from "../../assets/facebookLogo.png";
+// import { Link } from "react-router-dom";
+// import { FormEvent, useContext } from "react";
+// import useForm from "../../components/Hooks/useForm";
+// import Input from "../../components/Input/index";
+// import Button from "../../components/Button/index";
+// import { UserContext } from "../../components/Context/index";
+// import Error from "../../components/Help/index";
+
+// export function Login() {
+//   const email = useForm("email");
+//   const senha = useForm("senha");
+//   const { userLogin, error, loading } = useContext(UserContext);
+
+//   function handleSubmit(event: FormEvent) {
+//     event.preventDefault();
+//     if (email.validate() && senha.validate()) {
+//       userLogin(email.value, senha.value);
+//     }
+//   }
+
+//   return (
+//     <div>
+//       <div id="box">
+//         <div>
+//           <LogoStyle src={logo} alt="logo" />
+//           <div className="mt-2 text-white">
+//             <p>Acesse sua conta</p>
+//           </div>
+//           <FormStyle onSubmit={handleSubmit}>
+//             <Input
+//               label="Nome"
+//               type="text"
+//               placeholder="seunome@email.com"
+//               name="email"
+//               {...email}
+//             />
+//             <Input
+//               label="Senha"
+//               type="password"
+//               placeholder="******"
+//               name="senha"
+//               {...senha}
+//             />
+//             {loading ? (
+//               <Button disabled type="submit" className="mt-4">
+//                 Entrando...
+//               </Button>
+//             ) : (
+//               <Button type="submit" className="mt-4">
+//                 Entrar
+//               </Button>
+//             )}
+//             <Error error={error} />
+//           </FormStyle>
+//           <div>
+//             <p className="mt-4 text-white">
+//               Ainda não tem conta? <br />{" "}
+//               <Link className="linkCollor" to="/cadastro">
+//                 <b>Cadastre-se</b>
+//               </Link>
+//             </p>
+//           </div>
+//           <div className="mt-3 text-white">
+//             <hr />
+//             <p>Ou entre com:</p>
+//           </div>
+//           <div className="d-flex justify-content-evenly mb-4">
+//             <MiniImg src={googleLogo} alt="googlelogo" />
+//             <MiniImg src={facebookLogo} alt="facebooklogo" />
+//           </div>
+//         </div>
+//         <FundoLogin className="d-block d-sm-none" src={fundo} alt="logo" />
+//       </div>
+//       <FundoLogin2 className="d-none d-sm-block" src={fundo2} alt="logo" />
+//     </div>
+//   );
+// }
