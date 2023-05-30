@@ -8,7 +8,7 @@ import 'react-inner-image-zoom/lib/InnerImageZoom/styles.min.css';
 
 function ProductItem() {
   const location = useLocation()
-  const product: Product = location.state
+  const product: Product = location.state as Product;
   console.log(product)
   const dispatch = useDispatch()
   const handleAddToCart = (product: Product) => {

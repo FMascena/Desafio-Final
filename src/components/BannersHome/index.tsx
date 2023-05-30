@@ -1,5 +1,5 @@
 import React from "react";
-import Banner1 from "../../assets/bannerCacauShow4.png";
+import Banner1 from "../../assets/bannerBolos.png";
 import Banner2 from "../../assets/bannerCacauShow5.png";
 import Banner3 from "../../assets/bannerCacauShow6.png";
 import Banner4 from "../../assets/bannerCacauShow7.png";
@@ -15,27 +15,27 @@ function BannersHome() {
       <div className="w-10/12 gap-4 m-auto py-14 flex flex-col md:flex-row">
         <div>
           <Link to={"/catalogo"}>
-            <img src={Banner1} alt="" />
+            <img className='hover:scale-105 transition-transform' src={Banner1} alt="" />
           </Link>
         </div>
         <div>
           <Link to={"/catalogo"}>
-            <img src={Banner2} alt="" />
+            <img className='hover:scale-105 transition-transform' src={Banner2} alt="" />
           </Link>
         </div>
         <div>
           <Link to={"/catalogo"}>
-            <img src={Banner3} alt="" />
+            <img className='hover:scale-105 transition-transform' src={Banner3} alt="" />
           </Link>
         </div>
         <div>
           <Link to={"/catalogo"}>
-            <img src={Banner4} alt="" />
+            <img className='hover:scale-105 transition-transform' src={Banner4} alt="" />
           </Link>
         </div>
         <div>
           <Link to={"/catalogo"}>
-            <img src={Banner5} alt="" />
+            <img className='hover:scale-105 transition-transform' src={Banner5} alt="" />
           </Link>
         </div>
       </div>
