@@ -24,7 +24,6 @@ function ProductItem() {
           <div className='hidden md:hidden lg:flex lg:flex-col gap-5 w-4/12'>
           <InnerImageZoom
               src={product.Product_Albums[2]?.url_image}
-              alt={product.description}
               aria-label={product.description}
               zoomSrc={product.Product_Albums[2]?.url_image}
               className='object-cover w-[400px] h-[309px] rounded-[30px]'
@@ -34,7 +33,6 @@ function ProductItem() {
             />
             <InnerImageZoom
               src={product.Product_Albums[1]?.url_image}
-              alt={product.description}
               aria-label={product.description}
               zoomSrc={product.Product_Albums[1]?.url_image}
               className='object-cover w-[400px] h-[309px] rounded-[30px]'
@@ -47,7 +45,6 @@ function ProductItem() {
             
             <InnerImageZoom
               src={product.Product_Albums[0]?.url_image}
-              alt={product.description}
               aria-label={product.description}
               zoomSrc={product.Product_Albums[0]?.url_image}
               className='object-cover h-[634px] rounded-[30px] md:w-8/12'
