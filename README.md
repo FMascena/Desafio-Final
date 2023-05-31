@@ -22,7 +22,8 @@ Back-End: https://github.com/marcelowkr2/Ecommerce-App-Backend
 
 ## Como acessar:
 - Deploy -> <a target="_blank" href="https://desafio-final-dusky.vercel.app/">Clique aqui</a>
-- No repositório, rode npm install para instalar as dependências e, em seguida, o npm run dev para iniciar o servidor front.
+- Na sua máquina: Clone ou baixe o nosso repositório.
+- Vá até repositório, rode npm install para instalar as dependências e, em seguida, o npm run dev para iniciar o servidor front.
 
 
 ## Colaboradores:
