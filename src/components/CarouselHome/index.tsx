@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Banner1 from '../../assets/bannerCacauShow1.png'
-import Banner2 from '../../assets/bannerCacauShow2.png'
-import Banner3 from '../../assets/bannerCacauShow3.png'
-import CarouselLeftIcon from '../../assets/CarouselLeftIcon.svg'
-import CarouselRightIcon from '../../assets/CarouselRightIcon.svg'
+import Banner1 from '../../assets/bannerCarousel1.png';
+import Banner2 from '../../assets/bannerCarousel2.png';
+import Banner3 from '../../assets/bannerCarousel3.png';
+import CarouselLeftIcon from '../../assets/CarouselLeftIcon.svg';
+import CarouselRightIcon from '../../assets/CarouselRightIcon.svg';
 
 const featuredProducts = [
   Banner1,
