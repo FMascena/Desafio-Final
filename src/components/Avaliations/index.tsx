@@ -5,7 +5,7 @@ import Quote2 from '../../assets/Quote2.svg'
 function Avaliations(){
   return (
     <div className='bg-bege-100 m-auto py-16'>
-        <p className="text-h1 font-semibold text-center text-rosa-200 py-2">O que nossos clientes falam sobre nós?</p>
+        <p className="text-h1 font-bold text-center text-rosa-200 py-2">O que nossos clientes falam sobre nós?</p>
         <div className='w-10/12 m-auto gap-14 flex flex-col md:flex-row py-4'>
             <div>
                 <div className='py-6 w-[60px] md:w-full'><img src={Quote1} alt="" /></div>

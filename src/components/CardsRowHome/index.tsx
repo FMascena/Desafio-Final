@@ -7,7 +7,7 @@ import Icon4 from '../../assets/encomendaLogo.png';
 function CardsRowHome() {
   return (
     <div className="container m-auto py-16">
-      <p className="text-h1 font-semibold text-center text-rosa-200">Por que a Sweet Dreams?</p>
+      <p className="text-h1 font-bold text-center text-rosa-200">Por que a Sweet Dreams?</p>
       <div className="text-center w-10/12 m-auto gap-3 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 grid-flow-row">
       <div className="flex flex-col m-auto">
             <img className="m-auto relative w-[80px] top-[55px]" src={Icon1} alt="" />
