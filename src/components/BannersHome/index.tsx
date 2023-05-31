@@ -1,9 +1,9 @@
 import React from "react";
 import Banner1 from "../../assets/bannerBolos.png";
-import Banner2 from "../../assets/bannerCacauShow5.png";
-import Banner3 from "../../assets/bannerCacauShow6.png";
-import Banner4 from "../../assets/bannerCacauShow7.png";
-import Banner5 from "../../assets/bannerCacauShow8.png";
+import Banner2 from "../../assets/bannerTrufas.png";
+import Banner3 from "../../assets/bannerDoces.png";
+import Banner4 from "../../assets/bannerSobremesas.png";
+import Banner5 from "../../assets/bannerKits.png";
 import { Link } from "react-router-dom";
 
 function BannersHome() {
