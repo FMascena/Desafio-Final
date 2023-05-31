@@ -1,4 +1,4 @@
-import handNiddle from "../../assets/maosconfeiteira.png";
+import handNiddle from "../../assets/grid2.png";
 import meetCleusa from "../../assets/meetcleusaicon.svg";
 
 function AboutUsProcess() {
