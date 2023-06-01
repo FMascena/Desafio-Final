@@ -15,6 +15,7 @@ export default defineConfig({
         },
       },
     },
-    chunkSizeWarningLimit: 1500 // Ajuste esse valor conforme necessário
-  }
+    chunkSizeWarningLimit: 1500, // Ajuste esse valor conforme necessário
+    assetsInlineLimit: 0, // Define como 0 para garantir que as imagens sejam tratadas como arquivos separados
+  },
 })
