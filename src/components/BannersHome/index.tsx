@@ -15,27 +15,27 @@ function BannersHome() {
       <div className="w-10/12 gap-4 m-auto py-14 flex flex-col md:flex-row">
         <div>
           <Link to={"/catalogo"}>
-            <img className='hover:scale-105 transition-transform' src={Banner1} alt="" />
+            <img className='hover:scale-105 transition-transform' src={Banner1} alt="bolos" />
           </Link>
         </div>
         <div>
           <Link to={"/catalogo"}>
-            <img className='hover:scale-105 transition-transform' src={Banner2} alt="" />
+            <img className='hover:scale-105 transition-transform' src={Banner2} alt="trufas" />
           </Link>
         </div>
         <div>
           <Link to={"/catalogo"}>
-            <img className='hover:scale-105 transition-transform' src={Banner3} alt="" />
+            <img className='hover:scale-105 transition-transform' src={Banner3} alt="doces" />
           </Link>
         </div>
         <div>
           <Link to={"/catalogo"}>
-            <img className='hover:scale-105 transition-transform' src={Banner4} alt="" />
+            <img className='hover:scale-105 transition-transform' src={Banner4} alt="sobremesas" />
           </Link>
         </div>
         <div>
           <Link to={"/catalogo"}>
-            <img className='hover:scale-105 transition-transform' src={Banner5} alt="" />
+            <img className='hover:scale-105 transition-transform' src={Banner5} alt="kits" />
           </Link>
         </div>
       </div>
