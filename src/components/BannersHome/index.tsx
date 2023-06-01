@@ -10,7 +10,7 @@ function BannersHome() {
   return (
     <div className=" bg-bege-100">
       <h1 className="text-center text-h1 text-rosa-200 font-bold mt-20">
-        Principais Categorias
+        Conheça todos os nossos sabores
       </h1>
       <div className="w-10/12 gap-4 m-auto py-14 flex flex-col md:flex-row">
         <div>

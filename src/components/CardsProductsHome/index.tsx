@@ -39,7 +39,7 @@ function CardsProductsHome() {
 
   return (
     <div className="container m-auto py-16">
-      <p className="text-h1 font-bold text-center text-rosa-200">Produtos em destaque</p>
+      <p className="text-h1 font-bold text-center text-rosa-200">Aqueles que você precisa experimentar</p>
       <Slider {...settings}>
         <div>
           <div className="flex flex-col m-auto">
