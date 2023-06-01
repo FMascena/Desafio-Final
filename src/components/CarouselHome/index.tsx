@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Banner1 from '../../assets/bannerCarousel1.png';
-import Banner2 from '../../assets/bannerCarousel2.png';
-import Banner3 from '../../assets/bannerCarousel3.png';
+import Banner1 from '../../assets/bannercarousel1.png';
+import Banner2 from '../../assets/bannercarousel2.png';
+import Banner3 from '../../assets/bannercarousel3.png';
 import CarouselLeftIcon from '../../assets/CarouselLeftIcon.svg';
 import CarouselRightIcon from '../../assets/CarouselRightIcon.svg';
 
