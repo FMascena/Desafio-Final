@@ -19,13 +19,14 @@ Back-End: https://github.com/marcelowkr2/Ecommerce-App-Backend
 - Tailwind
 - GIT
 - Github
+- Vercel
 
 ## Como acessar:
-- Deploy -> <a target="_blank" href="https://desafio-final-dusky.vercel.app/">Clique aqui!</a> - Trello (demais links) -> <a target="_blank" href="https://trello.com/b/JM8Xj5dv/e-commerce-front-end">aqui</a>
+- Deploy -> <a target="_blank" href="https://desafio-final-dusky.vercel.app/">Clique aqui!</a> - Trello (demais links) -> <a target="_blank" href="https://trello.com/b/JM8Xj5dv/e-commerce-front-end">aqui.</a>
 - Na sua máquina: Clone ou baixe o nosso repositório.
 - Vá até repositório, rode npm install para instalar as dependências e, em seguida, o npm run dev para iniciar o servidor front.
 
 
 ## Colaboradores:
-| [<img src="https://avatars.githubusercontent.com/u/119469019?v=4" width=115><br><sub>Felipe Mascena</sub>](https://github.com/FMascena) |  [<img src="https://avatars.githubusercontent.com/u/122230967?v=4" width=115><br><sub>Fábio Moura</sub>](https://github.com/FabioDinizMoura) |
-| :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/119469019?v=4" width=115><br><sub>Felipe Mascena</sub>](https://github.com/FMascena) |  [<img src="https://avatars.githubusercontent.com/u/122230967?v=4" width=115><br><sub>Fábio Moura</sub>](https://github.com/FabioDinizMoura) | [<img src="https://avatars.githubusercontent.com/u/119169432?v=4" width=115><br><sub>Marcelo Pires</sub>](https://github.com/marcelowkr2) | [<img src="https://avatars.githubusercontent.com/u/104332662?v=4" width=115><br><sub>Jennifer Oliveira</sub>](https://github.com/JenniferOSF) |
+| :---: | :---: | :---: | :---: |
